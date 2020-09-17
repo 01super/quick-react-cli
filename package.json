@@ -1,19 +1,22 @@
 {
-  "name": "node",
+  "name": "ctrt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "ctrt": "index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "inquirer": "^7.3.3",
-    "ora": "^5.1.0"
   },
   "dependencies": {
+    "ora": "^5.1.0",
+    "inquirer": "^7.3.3",
     "download-git-repo": "^3.0.2"
   }
 }
