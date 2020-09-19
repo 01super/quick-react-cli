@@ -1,8 +1,8 @@
 {
   "name": "ctrt",
-  "version": "1.0.2",
-  "description": "",
-  "private": true,
+  "version": "1.1.0",
+  "description": "快速创建react项目",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,8 @@
     "ctrt": "src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "01super<fk1024@outlook.com>",
+  "license": "MIT",
   "devDependencies": {
   },
   "dependencies": {
